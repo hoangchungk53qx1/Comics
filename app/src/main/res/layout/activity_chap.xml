@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        >
+        <ImageView
+            android:id="@+id/imgAnhChap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_test"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/tvnameTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#9C7A7A"
+            android:text="Tên truyên"
+            android:layout_alignParentBottom="true"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/lvChap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</LinearLayout>

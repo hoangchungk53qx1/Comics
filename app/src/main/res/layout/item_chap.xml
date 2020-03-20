@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tvnameChapItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPP1"
+        android:textSize="20dp"
+        android:textColor="#111"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:padding="5dp"
+
+        />
+    <TextView
+        android:id="@+id/tvDateChap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19-03-2020"
+        android:textColor="#111"
+        android:textStyle="italic"
+        android:textSize="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical|right"
+        />
+
+</LinearLayout>
